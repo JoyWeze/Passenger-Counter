@@ -1,0 +1,97 @@
+*{
+    font-size: 1em;
+}
+body {
+    
+    background-image: url('./images/station.jpg');
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: -webkit-center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+    color: wheat;
+
+}
+.flex-btns{
+    display: flex;
+    gap: 10%;
+}
+.count-app{
+    width: 75vw;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 8%;
+    margin: auto;
+    border-radius: 12px;
+    font-size: 2em;
+    color: wheat;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url();
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: white;
+    font-weight: bold;
+    width: 75%;
+    margin-bottom: 19px;
+    border-radius: 5px;
+    background-color: inherit;
+    border: wheat;
+
+}
+#increment-btn:active {
+    animation: blue_btn .6s ease-in-out;
+   }
+   @keyframes blue_btn {
+    0% {background: rgb(0, 0, 255) ; box-shadow: -2px 2px rgb(0, 0, 255) ; transform: translate(-1px, 1px);}
+    100% {background: rgb(0, 0, 255) ; box-shadow: -3px 3px blue ; transform: translate(0, 0);}
+   }
+
+#save-btn:active {
+    animation: green_btn .6s ease-in-out;
+   }
+   @keyframes green_btn {
+    0% {background: rgb(0, 100, 0); box-shadow: -2px 2px rgb(0, 100, 0); transform: translate(-1px, 1px);}
+    100% {background: rgb(0, 100, 0); box-shadow: -3px 3px rgb(0, 100, 0); transform: translate(0, 0);}
+   }
+#decrement-btn:active {
+    animation: red_btn .6s ease-in-out;
+   }
+   @keyframes red_btn {
+    0% {background: darkred; box-shadow: -2px 2px darkred; transform: translate(-1px, 1px);}
+    100% {background: darkred; box-shadow: -3px 3px darkred; transform: translate(0, 0);}
+   }/**/
+#increment-btn {
+    
+    box-shadow: -1px 1px 2px wheat;
+    margin-top: 16%;
+}
+
+#save-btn {
+   
+    box-shadow: -1px 1px 2px wheat;
+    margin-top: 18%;
+    font-size: 64%;
+}
+#decrement-btn {
+    box-shadow: -1px 1px 2px wheat;
+    margin-top: 16%;
+}
+#save-el{
+    color: wheat;
+}
